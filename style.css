@@ -1,0 +1,229 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+/* General */
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+/* Nav-brand */
+.navbar {
+  z-index: 9999;
+}
+
+.navbar.navbar-default {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 17px;
+  padding-left: 35px;
+} 
+
+/* Navbar */
+#myNavbar li a {
+  font-size: 11px;
+  letter-spacing: 0.10em;
+}
+
+.navbar-nav li {
+  padding: 2px 7px;
+}
+
+/* Tools Hover */
+
+@media (min-width: 767px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* Main Container */
+.main-container img {
+  width: 100%;
+  background-color: black; /* fallback color */
+  background-position: center;
+  background-size: 100% auto; /* width and height, can be %, px or whatever. */
+}
+
+/* Jubotron */
+.jumbotron1 {
+  height: 400px;
+  background-image: url("https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings.jpg");
+  margin-bottom: 0;
+  min-height: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron2 {
+  height: 400px;
+  background-image: url("https://images.pexels.com/photos/147503/pexels-photo-147503.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  margin-bottom: 0;
+  min-height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.container-jumbo {
+  margin-top: 150px;
+  color: #FFF;
+  font-family: 'Inconsolata', monospace;
+}
+
+.container-jumbo #submit {
+  border: 1px solid;
+  padding: 10px;
+  font-size: 18px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container-jumbo #submit:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+
+.container-jumbo #submit a {
+  text-decoration: none; 
+  color: inherit; 
+  letter-spacing: 0.05em;
+}
+
+.container-jumbo h1 {
+  padding-bottom: 0;
+}
+
+.container-jumbo p {
+  font-size: 19px!important;
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .container-jumbo {
+    margin-top: 170px;
+  }
+}
+
+.text-container {
+  padding: 0 10%;
+  font-size: 18px;
+}
+
+.text-container h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+.text-container p {
+  padding: 15px 0;
+}
+
+/* Affix */
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+.affix .container-fluid {
+  border-bottom: 1px solid #999999;
+}
+
+
+/* Tools */
+.icons {
+  width: 50%;
+  min-width: 250px;
+  margin: auto;
+  float: left;
+  padding-left: 15px;
+  font-size: 40px;
+}
+
+.icons p {
+  font-size: 14px;
+}
+
+.online-tools h1 {
+  padding-top: 150px;
+}
+.icons .icon-img {
+  width: 150px!important;
+  height: 150px!important;
+}
+
+/* Footer */
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: #292929;
+  margin-top: 140px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+#footer .brand {
+  float: left;
+  padding: 90px 0 0 40px;
+}
+
+#footer .txt  {
+  float: right;
+  padding: 100px 30px 0 0;
+}
+
+#footer .brand a {
+  font-size: 34px;
+  letter-spacing: 0.10em;
+}
+
+#footer .txt a {
+  padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+  #footer .txt, #footer .txt a {
+    display: none;
+  }
+}
